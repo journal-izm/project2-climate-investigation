@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, coverage, and type-checker cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit local files
+.streamlit/secrets.toml
+
+# Generated application outputs
+articles/*
+!articles/.gitkeep
+reports/*
+!reports/.gitkeep
+charts/*
+!charts/.gitkeep
+journal/*
+!journal/.gitkeep
+
+# Local logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
